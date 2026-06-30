@@ -76,7 +76,7 @@ export default function App() {
 
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-blue-900">Unclaimed Property Lookup</h1>
+          <h1 className="text-3xl font-bold text-blue-900">Unclaimed Property Dormancy Requirements</h1>
           <p className="text-gray-500 mt-1">Dormancy requirements by state and property type</p>
         </div>
 
