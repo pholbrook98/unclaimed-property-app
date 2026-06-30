@@ -75,10 +75,13 @@ export default function App() {
       <div className="max-w-3xl mx-auto px-4 py-12">
 
         {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-blue-900">Unclaimed Property Dormancy Requirements</h1>
-          <p className="text-gray-500 mt-1">Dormancy requirements by state and property type</p>
-        </div>
+<div className="mb-8">
+  <h1 className="text-3xl font-bold text-blue-900">Unclaimed Property Dormancy Requirements</h1>
+  <p className="text-gray-500 mt-1">Dormancy requirements by state and property type</p>
+  <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded-md px-3 py-2 mt-3 inline-block">
+    Beta — currently covering 10 states. For informational purposes only; not legal advice. Always verify against current state statutes.
+  </p>
+</div>
 
         {/* Mode Toggle */}
         <div className="flex gap-2 mb-6">
